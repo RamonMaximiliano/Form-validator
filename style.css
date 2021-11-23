@@ -1,0 +1,30 @@
+body {
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+
+.allContent{
+    display: flex;
+}
+
+
+.image{
+    width:100%;
+}
+
+.mainSection{
+    background-color: khaki;
+    display:flex;
+    width: 60%;
+    align-items: center;
+}
+
+.asideClass{
+    padding:50px;
+    width: 500%;
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(63, 231, 133);
+}
