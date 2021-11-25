@@ -1,30 +1,48 @@
 body {
     margin:0;
     box-sizing: border-box;
-
 }
-
 
 .allContent{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 12%;
 }
 
 
 .image{
-    width:100%;
+    width: inherit;
 }
 
 .mainSection{
     background-color: khaki;
-    display:flex;
-    width: 60%;
+    width: 800px;
     align-items: center;
 }
 
 .asideClass{
     padding:50px;
-    width: 500%;
-    display:flex;
-    flex-direction: column;
+    width: 800px;
     background-color: rgb(63, 231, 133);
+}
+
+.inputtag{
+    width: 250px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom:20px;
+}
+
+.mainButtom{
+    margin-top: 18px;
+    width:265px;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.legend{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom:20px;
 }
