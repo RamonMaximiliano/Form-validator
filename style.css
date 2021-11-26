@@ -11,15 +11,14 @@ body {
 
 
 .image{
+    margin-top:20%;
     width: inherit;
-    align-items: center;
 
 }
 
 .mainSection{
-    background-color: khaki;
     width: 60%;
-    height: 1000px;
+    height: 1050px;
     padding: 20px;
     align-items: center;
     text-align: center;
@@ -30,10 +29,15 @@ body {
     padding:50px;
     width:40%;
     align-items: center;
-    height: 1000px;
+    height: 1050px;
     background-color: rgb(63, 231, 133);
     box-sizing: border-box;
 }
+
+.mainform{
+    margin-top:30%;
+}
+
 
 
 /*Form area*/
@@ -47,7 +51,7 @@ body {
 
 .mainButtom{
     margin-top: 18px;
-    width:265px;
+    width:250px;
     padding:5px;
     box-sizing: border-box;
     border-radius: 5px;
