@@ -64,3 +64,11 @@ body {
     box-sizing: border-box;
 }
 /*Form area*/
+
+
+.error{
+    font-size: 11px;
+    background-color: red;
+    color:white; 
+    padding: 4px;
+}

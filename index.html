@@ -18,21 +18,21 @@
 
 
         <div class="asideClass">
-            <form class="mainform" method="post" action="cadastro.php" >
+            <form class="mainform" method="POST" action="cadastro.php" >
                 <legend class="legend">Crie uma conta</legend>
                 <label for="name">Seu nome:</label><br>
-                <input id="name" class="inputtag" type="text" data-rules="required|min=2"><br>
+                <input id="name" class="inputtag" name="name" type="text" data-rules="required|min=2"><br>
 
 
-                <label for="e-mail">Seu e-mail:</label><br>
+                <label for="e-mail" data-rules="required" >Seu e-mail:</label><br>
 
-                <input class="inputtag" type="email" id="e-mail"><br>
+                <input class="inputtag" type="email" id="e-mail" name="email" data-rules="required|email"><br>
 
                 <label for="password">Sua senha:</label><br>
 
-                <input class="inputtag" type="text" id="password"><br>
+                <input class="inputtag" type="text" id="password" name="password" data-rules="required|min=4"><br>
 
-                <button class="mainButtom">Cadastrar</button><br>
+                <input class="mainButtom" type="submit" value="Cadastrar"/><br>
                 <p>Já tem uma conta? <a>Faça o Login</a></p>
             </form>
         </div>
